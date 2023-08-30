@@ -6,7 +6,7 @@ import (
 
 type GoRandom32CharsGenerator struct{}
 
-func (goRandom32CharsGenerator *GoRandom32CharsGenerator) execute() string{
+func (goRandom32CharsGenerator *GoRandom32CharsGenerator) Execute() string {
 	output := make([]rune, 32)
 
 	min := 0
