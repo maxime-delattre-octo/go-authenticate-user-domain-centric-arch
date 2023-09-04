@@ -1,4 +1,4 @@
-package usecases
+package ports
 
 import "go-authenticate-user-domain-centric-arch/domain"
 
