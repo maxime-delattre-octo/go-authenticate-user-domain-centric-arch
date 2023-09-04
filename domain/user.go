@@ -9,7 +9,7 @@ type User struct {
 
 func (user User) Authenticate(password string) error {
 	if user.password != password {
-		return errors.NewUnauthorizedOperationError()
+		return &errors.UnauthorizedOperationError{}
 	}
 
 	return nil
